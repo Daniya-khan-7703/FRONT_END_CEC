@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+        // example object
+        const person = {
+            name : "Alice",
+            age : 25,
+            city : "New York",
+        };
+        let count = 1;
+        // using for-in to loop through object
+        for(let key in person)
+        {
+            console.log(key + ":" , person[key]);
+            count++;
+
+        }
+        console.log(count);
+    </script>
+</body>
+</html>
